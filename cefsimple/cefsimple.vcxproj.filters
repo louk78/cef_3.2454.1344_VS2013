@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="simple_app.cc">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="simple_handler.cc">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="cefsimple_win.cc">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="simple_handler_win.cc">
+      <Filter></Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simple_app.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="simple_handler.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter></Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\.ico">
+      <Filter>\res</Filter>
+    </None>
+    <None Include="res\small.ico">
+      <Filter>\res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".rc">
+      <Filter></Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="\res">
+      <UniqueIdentifier>{4BA1A26E-257B-3ED9-BCEA-A22B93F5DAD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="">
+      <UniqueIdentifier>{BBD01312-097C-3CA8-990B-1A028413E175}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
